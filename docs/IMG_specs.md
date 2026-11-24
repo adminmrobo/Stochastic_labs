@@ -1,5 +1,7 @@
 # 그림 지시문 — 확률해석 교실 (픽셀아트)
 
+> Genspark에 바로 붙여 넣는 묶음별 프롬프트는 `docs/GENSPARK_PROMPTS.md`에 있어요.
+
 > 모든 그림 공통: 16-bit RPG pixel art, crisp pixel grid drawn at 480×270 then upscaled 4× with nearest neighbor, limited palette, pure white background (#FFFFFF), soft teal accent (#2F6F8F), no text, no letters, no numbers, no logos in the image.
 > Characters (attach the four base sheets from the character pack adminmrobo/fruitfly-lab-expressions as reference): 박사 = cheerful scientist with spiky white-and-black hair, round glasses, white lab coat; 초파리 연구원 = small fruit fly researcher with big red eyes holding a magnifying glass; 주판봇 = boxy green-screen robot holding an abacus; 조수 하루 = girl with pink-and-navy twin hair buns in a white hoodie; 인턴 시아 = calm girl with long black hair; 인턴 모아 = smiling girl with long light-brown hair and a red bow; X1·X2·X3 = black silhouette students (identity hidden).
 
