@@ -24,7 +24,7 @@ SC.coin={title:'동전 게임장',ch:'12_optional_stopping.html',chn:'12장 선�
   graphs:function(r,st,g1,g2){var s=svg(g1,320,210,'목표에 따른 도달 확률');var P=plot(s,36,14,270,160,[2,40],[0,1],{xl:'목표 N',yl:'도달 확률',xt:[10,20,30],yt:[0,0.5,1]}),xs=[],ys=[],y2=[];
     for(var N=r.k+1;N<=40;N++){xs.push(N);ys.push(ruinP(r.p,r.k,N));y2.push(r.k/N);}
     pline(s,P,function(i){return xs[i];},y2,{stroke:C.g,'stroke-dasharray':'5 4'});pline(s,P,function(i){return xs[i];},ys,{stroke:C.b,'stroke-width':2.2});E('circle',{cx:P.X(r.N),cy:P.Y(r.P),r:6,fill:C.r},s);
-    tx(s,300,32,'파랑 = 이 동전 · 초록 점선 = k/N',{'font-size':11,fill:C.mu,'text-anchor':'end'});
+    tx(s,300,32,r.fair?'공정한 동전: 파랑과 초록 점선(k/N)이 겹침':'파랑 = 이 동전 · 초록 점선 = k/N',{'font-size':11,fill:C.mu,'text-anchor':'end'});
     var s2=svg(g2,320,210,'게임 경로 예시'),Q=plot(s2,36,14,270,160,[0,150],[0,r.N],{xl:'판 수',yl:'돈',yt:[0,r.N]}),R=rng(7);
     for(var j=0;j<8;j++){var x=r.k,w=[x],t=0;while(x>0&&x<r.N&&t<150){x+=R()<r.p?1:-1;t++;w.push(x);}pline(s2,Q,function(i){return i;},w,{stroke:x>=r.N?C.g:x<=0?C.r:C.lt,'stroke-width':1.4});}},
   talk:function(r,st){return [['doc',r.fair?'judge':'think',r.fair?'공정한 동전이에요. 목표를 어떻게 잡든 끝날 때 평균 돈은 시작 돈 그대로예요(선택적 정지).':'수수료가 있는 동전이에요. 판이 길어질수록(목표가 클수록) 손해가 쌓여요.'],
