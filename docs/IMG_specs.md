@@ -211,10 +211,10 @@ Pixel art scene illustrating: 운동장 학생들을 위에서 찍으면 처음�
 Pixel art scene illustrating: 굴뚝 연기는 바람(표류)이 통째로 옮기고, 공기의 떨림(확산)이 넓게 번지게 해요. 바람이 없으면 제자리에서 번지기만, 떨림이 없으면 모양 그대로 떠밀려 가기만 해요. Use the lab characters as the people in the scene. 16-bit RPG pixel art, crisp pixel grid drawn at 480×270 then upscaled 4× with nearest neighbor, limited palette, pure white background (#FFFFFF), soft teal accent (#2F6F8F), no text, no letters, no numbers, no logos in the image.
 ```
 
-### scene_11_lv1 — 목표 체중 비유
-- 장면: 다이어트 중 「처음으로 60kg이 되는 날」은 미리 날짜를 모르지만, 그날 아침 체중계에 오르면 「바로 오늘이다」를 알 수 있어요.
+### scene_11_lv1 — 화분 키 표시 비유
+- 장면: 화분이 벽의 키 표시에 「처음으로 닿는 날」은 미리 날짜를 모르지만, 그날 아침 화분을 재 보면 「바로 오늘이다」를 알 수 있어요.
 ```
-Pixel art scene illustrating: 다이어트 중 「처음으로 60kg이 되는 날」은 미리 날짜를 모르지만, 그날 아침 체중계에 오르면 「바로 오늘이다」를 알 수 있어요. Use the lab characters as the people in the scene. 16-bit RPG pixel art, crisp pixel grid drawn at 480×270 then upscaled 4× with nearest neighbor, limited palette, pure white background (#FFFFFF), soft teal accent (#2F6F8F), no text, no letters, no numbers, no logos in the image.
+Pixel art scene illustrating: a potted plant reaching a height mark on the wall for the first time; the Professor cheers, Moa marks the calendar. Use the lab characters as the people in the scene. 16-bit RPG pixel art, crisp pixel grid drawn at 480×270 then upscaled 4× with nearest neighbor, limited palette, pure white background (#FFFFFF), soft teal accent (#2F6F8F), no text, no letters, no numbers, no logos in the image.
 ```
 
 ### scene_11_lv2 — 바닥에서 사기 비유

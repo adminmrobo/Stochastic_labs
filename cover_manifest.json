@@ -93,22 +93,22 @@
    "id": "cover_00",
    "role": "cover",
    "path": "index.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "moa"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_00.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -121,28 +121,28 @@
    ],
    "status": "ok",
    "source_of": "cover_00",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "cover_01",
    "role": "cover",
    "path": "01_random_variables.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "asst"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_01.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -155,52 +155,60 @@
    ],
    "status": "ok",
    "source_of": "cover_01",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_01_lv1",
    "role": "scene",
    "path": "01_random_variables.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_01_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_01_lv2",
    "role": "scene",
    "path": "01_random_variables.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_01_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_02",
    "role": "cover",
    "path": "02_stochastic_process.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "sia"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_02.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -213,52 +221,60 @@
    ],
    "status": "ok",
    "source_of": "cover_02",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_02_lv1",
    "role": "scene",
    "path": "02_stochastic_process.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_02_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_02_lv2",
    "role": "scene",
    "path": "02_stochastic_process.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_02_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_03",
    "role": "cover",
    "path": "03_filtration.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "moa"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_03.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -271,52 +287,60 @@
    ],
    "status": "ok",
    "source_of": "cover_03",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_03_lv1",
    "role": "scene",
    "path": "03_filtration.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_03_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_03_lv2",
    "role": "scene",
    "path": "03_filtration.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_03_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_04",
    "role": "cover",
    "path": "04_brownian_motion.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "x1"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_04.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -329,52 +353,60 @@
    ],
    "status": "ok",
    "source_of": "cover_04",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_04_lv1",
    "role": "scene",
    "path": "04_brownian_motion.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_04_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_04_lv2",
    "role": "scene",
    "path": "04_brownian_motion.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_04_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_05",
    "role": "cover",
    "path": "05_sqrt_t_quadratic_variation.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "jupanbot"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_05.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -387,52 +419,60 @@
    ],
    "status": "ok",
    "source_of": "cover_05",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_05_lv1",
    "role": "scene",
    "path": "05_sqrt_t_quadratic_variation.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_05_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_05_lv2",
    "role": "scene",
    "path": "05_sqrt_t_quadratic_variation.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_05_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_06",
    "role": "cover",
    "path": "06_martingale.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "moa"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_06.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -445,52 +485,60 @@
    ],
    "status": "ok",
    "source_of": "cover_06",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_06_lv1",
    "role": "scene",
    "path": "06_martingale.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_06_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_06_lv2",
    "role": "scene",
    "path": "06_martingale.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_06_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_07",
    "role": "cover",
    "path": "07_ito_integral.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "asst"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_07.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -503,52 +551,60 @@
    ],
    "status": "ok",
    "source_of": "cover_07",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_07_lv1",
    "role": "scene",
    "path": "07_ito_integral.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_07_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_07_lv2",
    "role": "scene",
    "path": "07_ito_integral.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_07_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_08",
    "role": "cover",
    "path": "08_ito_formula.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "x1"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_08.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -561,52 +617,60 @@
    ],
    "status": "ok",
    "source_of": "cover_08",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_08_lv1",
    "role": "scene",
    "path": "08_ito_formula.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_08_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_08_lv2",
    "role": "scene",
    "path": "08_ito_formula.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_08_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_09",
    "role": "cover",
    "path": "09_sde.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "sia"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_09.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -619,52 +683,60 @@
    ],
    "status": "ok",
    "source_of": "cover_09",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_09_lv1",
    "role": "scene",
    "path": "09_sde.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_09_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_09_lv2",
    "role": "scene",
    "path": "09_sde.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_09_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_10",
    "role": "cover",
    "path": "10_fokker_planck.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "moa"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_10.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -677,52 +749,60 @@
    ],
    "status": "ok",
    "source_of": "cover_10",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_10_lv1",
    "role": "scene",
    "path": "10_fokker_planck.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_10_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_10_lv2",
    "role": "scene",
    "path": "10_fokker_planck.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_10_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_11",
    "role": "cover",
    "path": "11_stopping_times.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "x3"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_11.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -735,52 +815,60 @@
    ],
    "status": "ok",
    "source_of": "cover_11",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_11_lv1",
    "role": "scene",
    "path": "11_stopping_times.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_11_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_11_lv2",
    "role": "scene",
    "path": "11_stopping_times.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_11_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_12",
    "role": "cover",
    "path": "12_optional_stopping.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "fly"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_12.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -793,52 +881,60 @@
    ],
    "status": "ok",
    "source_of": "cover_12",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_12_lv1",
    "role": "scene",
    "path": "12_optional_stopping.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_12_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_12_lv2",
    "role": "scene",
    "path": "12_optional_stopping.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_12_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_13",
    "role": "cover",
    "path": "13_final_review.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "fly",
     "jupanbot",
     "moa"
    ],
-   "note": "대체 표지(캔버스 픽셀 점 + 캐릭터 팩). 픽셀아트 지시문 docs/IMG_specs.md",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_13.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -851,52 +947,60 @@
    ],
    "status": "ok",
    "source_of": "cover_13",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   },
   {
    "id": "scene_13_lv1",
    "role": "scene",
    "path": "13_final_review.html#lv1",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_13_lv1.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "scene_13_lv2",
    "role": "scene",
    "path": "13_final_review.html#lv2",
-   "status": "todo",
+   "status": "ok",
    "file": "img/scene/scene_13_lv2.webp",
    "size": [
-    1200,
-    800
+    1404,
+    936
    ],
-   "note": "지시문 docs/IMG_specs.md"
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
+   "grid": [
+    468,
+    312
+   ]
   },
   {
    "id": "cover_practice",
    "role": "cover",
    "path": "practice/index.html#top",
-   "status": "fallback",
+   "status": "ok",
    "characters": [
     "doc",
     "moa",
     "asst",
     "jupanbot"
    ],
-   "note": "대체 표지",
+   "note": "Genspark 16비트 RPG 픽셀아트 → 4배 격자로 맞춰 NEAREST, 무손실 WebP",
    "file": "img/cover/cover_practice.webp",
    "size": [
-    1920,
-    1080
+    2048,
+    1152
    ],
    "grid": [
-    480,
-    270
+    512,
+    288
    ]
   },
   {
@@ -909,7 +1013,7 @@
    ],
    "status": "ok",
    "source_of": "cover_practice",
-   "note": "대체 표지에서 잘라 냄"
+   "note": "표지 픽셀아트 격자에서 잘라 3배 NEAREST"
   }
  ]
 }
