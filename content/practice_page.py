@@ -1,0 +1,24 @@
+"""마지막 장 · 실전 연습장 조립"""
+import os
+
+
+def build(B, chs):
+    B.USED.update({('doc', 'judge'), ('doc', 'think'), ('asst', 'report'), ('fly', 'magnify'), ('fly', 'point'), ('robo', 'calc'), ('robo', 'coin'), ('robo', 'chart')})
+    last = chs[-1]
+    o = [B.head('마지막 장 · 실전 연습장 — ' + B.SERIES, '동전 게임장, 주식 거래소, 잉크 공장, 정수기 관리소를 운영하며 확률해석 개념을 써 보는 시뮬레이터.', depth=1, og='../img/og/og_practice.webp')]
+    o.append('<nav class="top" aria-label="실전 연습장 목차"><a class="logo" href="../index.html">확률해석 교실</a><a href="#sim">사업장</a><a href="#wrap">마무리</a><a href="../%s.html">13장 종합</a></nav><div id="prog"></div>' % last['slug'])
+    o.append(B.cover_html('cover_practice', '확률해석 사업장 시뮬레이터', '마지막 장 · 실전 연습장', '동전 게임장 · 주식 거래소 · 잉크 공장 · 정수기 관리소', '실전 연습장 표지 — 네 사업장 앞의 박사와 수강생들', up='../',
+                          chars=[('doc', 'front'), ('moa', 'cheer'), ('asst', 'spark'), ('robo', 'coin')], seed=99))
+    o.append('<header class="hero"><div class="wrap"><div class="kicker">마지막 장 · 실전 연습장</div><h1>확률해석 사업장 시뮬레이터</h1>'
+             '<p class="q">핵심 질문 — 배운 개념으로 「가상 사업장」의 결정을 내리면, 숫자가 어떻게 달라질까?</p>'
+             '<p>사업장 네 곳을 탭으로 골라 운영해 보세요. 초록 상자는 시장 환경(내가 못 바꾸는 조건), 파란 상자는 내 결정이에요. 성적표·그래프·캐릭터 대사가 바로 바뀌고, 미션 3개는 조작한 뒤에 자동으로 판정돼요. 주소 끝에 #coin, #stock, #ink, #water를 붙이면 그 사업장이 바로 열려요.</p>'
+             + B.says([('doc', 'front', '마지막 장은 실습입니다. 정답은 계산이 판정해요. 사업장마다 미션 세 개, 모두 열두 개!'), ('moa', 'cheer', '네 곳 다 운영해 볼래요!')]) + '</div></header>')
+    o.append('<section class="level" style="padding-top:24px"><div class="wrap" id="sim"></div></section>')
+    o.append('''<section class="level" id="wrap"><div class="wrap"><h2>마무리 — 네 사업장이 함께 묻는 질문</h2>
+<p>네 사업장은 모두 「평균만 보지 말고, 흔들림과 멈춤까지 함께 보라」는 같은 질문을 던져요. 동전 게임장에서는 공정한 게임이 멈춰도 평균이 그대로였고(선택적 정지), 주식 거래소에서는 평균과 가운데 값이 이토 공식의 덤 σ²/2만큼 갈렸고, 잉크 공장에서는 봉우리가 낮아져도 넓이는 1이었고(포커-플랑크), 정수기 관리소에서는 퍼짐과 끌어당김이 맞서는 곳에서 비용이 가장 적었어요(평형 분포). AI나 프로그램이 낸 숫자를 볼 때도 「평균인가 가운데 값인가, 퍼짐은 얼마인가, 언제 멈추는 규칙인가」를 먼저 확인하세요.</p>
+<div class="lim"><b>모형의 한계</b> — 사업장의 숫자(동전 확률, 수익률, 물 흐름, 펌프 비용)는 모두 교육용 예시값이에요. 실제 시장과 공장에는 변동성 변화, 갑작스러운 점프, 거래 비용처럼 이 모형에 없는 조건이 많아요. 이 페이지의 결과는 경영·투자 권고가 아닙니다.</div>
+</div></section>''')
+    o.append(B.footer_html(('../%s.html' % last['slug'], '13 종합 — 기말 쪽지시험과 졸업 발표'), ('../index.html', '오리엔테이션으로'), ''))
+    o.append('<script src="../assets/sprites.js"></script><script src="../assets/widgets.js"></script><script src="../assets/lab.js"></script><script src="../assets/practice.js"></script></body></html>')
+    open(os.path.join(B.ROOT, 'practice', 'index.html'), 'w', encoding='utf-8').write('\n'.join(o))
+    print('built practice')
